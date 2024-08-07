@@ -19,7 +19,6 @@ docker images
 docker tag app-node dinghy123/app-node:latest
 docker login
 docker push dinghy123/app-node:latest
-docker push dinghy123/app-node:latest
 ```
 - Go to https://hub.docker.com/ login with your account and make sure the image is pushed
 
